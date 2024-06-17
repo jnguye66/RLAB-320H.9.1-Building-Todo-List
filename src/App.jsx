@@ -28,16 +28,16 @@ export default function App() {
     })
   }
 
-  function editTodo(id, newValue) {
-    setTodoList(currentTodos => {
-      currentTodos.map(todo => {
-        if (todo.id === id) {
-          return { ...todo, newValue }
-        }
-        return todo;
-      })
-    })
-  }
+  // function editTodo(id, newValue) {
+  //   setTodoList(currentTodos => {
+  //     currentTodos.map(todo => {
+  //       if (todo.id === id) {
+  //         return { ...todo, newValue }
+  //       }
+  //       return todo;
+  //     })
+  //   })
+  // }
 
   // Toggles the checkbox
   function toggleTodo(id, completed) {
